@@ -1,0 +1,226 @@
+/*=========================GLOBAL===========================*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    font-size: 62.5%; /* 1rem = 10px*/
+    --var--colorGray:gray;
+
+}
+
+body{
+  
+    height: 100vh;
+}
+
+/*=========================WRAPPER===========================*/
+.wrapper{ 
+    padding-inline: 5%;
+}
+
+/*=========================HEADER===========================*/
+
+.headerContainer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.headerContainer .wrapper .headerContainer__iconContainer{
+    display: flex;
+    width: 25rem;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+
+.wrapper .headerContainer__iconContainer p{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.wrapper .headerContainer__iconContainer img{
+    width: 5rem;
+}
+/*=========================HEADER__NAVIGATION===========================*/
+
+.headerContainer .wrapper .headerContainer__navigation{
+    display: flex;
+}
+
+.wrapper .headerContainer__navigation ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 2rem;
+}
+
+.headerContainer__navigation ul li{
+    font-size: 2rem;
+    list-style: none;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+/*=========================INTRODUCTION===========================*/
+.PageIntroduction .wrapper{
+    padding-block: 10rem;
+    text-align: center;
+   
+}
+
+.PageIntroduction .wrapper h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.PageIntroduction .wrapper p{
+    font-size: 2.2rem;
+    color:var(--var--colorGray);
+    padding-top: 2rem;
+}
+
+/*=========================MAINCONTAINER__LEFTASIDE===========================*/
+.mainContainer .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.wrapper .mainContainer__leftAside{
+    height: 35rem;
+   
+}
+
+.wrapper .mainContainer__leftAside h3{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.wrapper .mainContainer__leftAside .mainContainer__leftAside__projectsLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.8rem;
+   
+}
+
+.mainContainer__leftAside .mainContainer__leftAside__projectsLinks a{
+    text-decoration: none;
+    color: black;
+}
+
+/*=========================MAINCONTAINER__MIDCONTAINER===========================*/
+.wrapper .mainContainer__midContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    height: 35rem;
+   
+}
+
+.wrapper .mainContainer__midContainer h3{
+    font-size: 3rem;
+}
+
+.mainContainer__midContainer .mainContainer__midContainer__Boxes{
+    width: 30rem;
+}
+
+.mainContainer__midContainer .mainContainer__midContainer__Boxes h6{
+    font-size: 1.8rem;
+}
+
+.mainContainer__midContainer .mainContainer__midContainer__Boxes p{
+    font-size: 1.8rem;
+    margin-block: 1rem;
+}
+
+.mainContainer__midContainer .mainContainer__midContainer__Boxes a{
+    font-size: 1.6rem;
+    color: blue;
+    text-decoration: none;
+}
+
+/*=========================MAINCONTAINER__RIGHTASIDE===========================*/
+.wrapper .mainContainer__rightAside{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 25rem;
+    height: 35rem;
+}
+
+.wrapper .mainContainer__rightAside h3{
+    font-size: 3rem;
+}
+
+.wrapper .mainContainer__rightAside p{
+    font-size: 1.8rem;
+   
+}
+.mainContainer__rightAside__ListContainer ul{
+    margin-top: 2rem;
+}
+
+.mainContainer__rightAside__ListContainer ul li{
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+/*=========================FOOTER===========================*/
+.containerFooter .wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+
+.containerFooter .wrapper h3{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.wrapper .containerFooter__boxesContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+.containerFooter__boxesContainer .containerFooter__boxesContainer__boxes{
+    width: 28rem;
+    border: solid 1px black;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.containerFooter__boxesContainer .containerFooter__boxesContainer__boxes p{
+    font-size: 2rem;
+}
+
+.containerFooter__boxesContainer .containerFooter__boxesContainer__boxes a{
+    font-size: 1.6rem;
+    color: var(--var--colorGray);
+    text-decoration: none;
+}
+
+.containerFooter .wrapper .containerFooter__paragraphRights{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
